@@ -9,6 +9,5 @@ class Artist < ActiveRecord::Base
       )
     SQL
     ActiveRecord::Base.connection.execute(sql)
-  end
  end
 end 
